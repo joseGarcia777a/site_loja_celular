@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: rgb(4, 186, 4);
+    background-color: rgb(4, 131, 186);
     color: white;
     padding: 20px 0;
 }
@@ -22,15 +22,9 @@ header{
     margin-left: 20px;
 }
 
-.contander{
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 h2, h3{
-    color: green;
-    border-bottom: 2px solid green;
+    color: rgb(3, 91, 128);
+    border-bottom: 2px solid rgb(3, 91, 128);
     padding: 20px 0;
 }
 
@@ -52,12 +46,6 @@ h2, h3{
 }
 
 /* produtos */
-.Produtos{
-    display: grid;
-    grid-template-columns: repeat(4, 23.5%);
-    column-gap: 2%;
-    row-gap: 5%;
-}
 
 .Produtos img{
     margin-top: 30px;
@@ -69,7 +57,7 @@ h2, h3{
 }
 
 .Produtos button{
-    background-color: green;
+    background-color: rgb(3, 91, 128);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -80,7 +68,7 @@ h2, h3{
 footer{
     margin-top: 70px;
     padding: 20px;
-    background-color: green;
+    background-color: rgb(3, 91, 128);
     color: white;
 }
 
